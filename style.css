@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    color: #f0f0f0;
+    background-color: #0d1117; /* Dark background */
+    background-image: url('images/file-VaSDsKSGLwCDQH5PwHxAj77h.jpg'); /* Add your background image here */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5); /* Dark overlay */
+}
+
+.header-content h1 {
+    font-size: 3em;
+    color: #ffffff;
+}
+
+.header-content h1 span {
+    color: #61dafb; /* Bright accent color */
+}
+
+.header-content p {
+    font-size: 1.2em;
+    margin-top: 10px;
+    color: #c9d1d9;
+}
+
+section {
+    padding: 50px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.8); /* Dark section background */
+    margin-bottom: 30px;
+    border-radius: 10px;
+}
+
+h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #61dafb;
+}
+
+.about p {
+    font-size: 1.2em;
+    margin-bottom: 15px;
+    color: #c9d1d9;
+}
+
+ul {
+    list-style-type: none;
+    font-size: 1.2em;
+    color: #c9d1d9;
+}
+
+.project-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.project {
+    width: 220px;
+    background-color: #0d1117;
+    padding: 20px;
+    margin: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
+}
+
+.project h3 {
+    color: #61dafb;
+}
+
+footer {
+    background-color: #161b22;
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Ground photo styling */
+body::after {
+    content: "";
+    background-image: url('images/file-bMNIWt6b2NgScKBNqAFAf0m8.jpg'); /* Add ground image */
+    background-position: bottom;
+    background-size: contain;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 250px;
+    z-index: -1;
+    opacity: 0.8; /* Slight transparency for professional feel */
+}
